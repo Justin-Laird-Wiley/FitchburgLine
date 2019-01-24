@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditScheduleActivity">
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Train Number" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!-- Item field -->
+        <EditText
+            android:id="@+id/edit_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_item_name"
+            android:inputType="textCapWords" />
+
+        <!-- Item field -->
+        <EditText
+            android:id="@+id/edit_north_station"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_north_station"
+            android:inputType="textCapWords" />
+
+        <!-- Item field -->
+        <EditText
+            android:id="@+id/edit_porter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_north_station"
+            android:inputType="textCapWords" />
+
+        <!-- Item field -->
+        <EditText
+            android:id="@+id/edit_belmont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_north_station"
+            android:inputType="textCapWords" />
+
+        <!-- Item field -->
+        <EditText
+            android:id="@+id/edit_waverley"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_north_station"
+            android:inputType="textCapWords" />
+
+    </LinearLayout>
+
+</LinearLayout>
